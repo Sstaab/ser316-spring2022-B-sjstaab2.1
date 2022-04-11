@@ -10,7 +10,7 @@ name: Java CI with Gradle
 on:
   push:
 
-      branches: [ StaticAnalysis ]
+      branches: [ StaticAnalysis]
   pull_request:
     branches: [ StaticAnalysis ]
 
