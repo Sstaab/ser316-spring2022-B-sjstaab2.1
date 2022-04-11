@@ -10,9 +10,9 @@ name: Java CI with Gradle
 on:
   push:
 
-      branches: [ StaticAnalysis]
+      branches: [ CheckStyle]
   pull_request:
-    branches: [ StaticAnalysis ]
+    branches: [ CheckStyle ]
 
 permissions:
   contents: read
